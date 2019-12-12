@@ -22,6 +22,10 @@
 #include "log.h"
 #include "okclient.h"
 #include "droproot.h"
+#include <stdlib.h>
+
+
+FLIST *list;
 
 static int packetquery(char *buf,unsigned int len,char **q,char qtype[2],char qclass[2],char id[2])
 {
@@ -113,13 +117,16 @@ void u_new(void)
   if (len == -1) return;
   if (len >= sizeof buf) return;
   if (x->port < 1024) if (x->port != 53) return;
-  if (!okclient(x->ip)) return;
+  /* question 2: */
+ // if (!okclient(x->ip)) return;
+ 
+  if(!newokclient(list,x->ip)) return;
 
   if (!packetquery(buf,len,&q,qtype,qclass,x->id)) return;
 
   x->active = ++numqueries; ++uactive;
   log_query(&x->active,x->ip,x->port,x->id,q,qtype);
-  switch(query_start(&x->q,q,qtype,qclass,myipoutgoing)) {
+  switch(query_start(&x->q,q,qtype,qclass,myipoutgoing,x->ip)) {
     case -1:
       u_drop(j);
       return;
@@ -254,7 +261,7 @@ void t_rw(int j)
 
   x->active = ++numqueries;
   log_query(&x->active,x->ip,x->port,x->id,q,qtype);
-  switch(query_start(&x->q,q,qtype,qclass,myipoutgoing)) {
+  switch(query_start(&x->q,q,qtype,qclass,myipoutgoing,x->ip)) {
     case -1:
       t_drop(j);
       return;
@@ -294,7 +301,11 @@ void t_new(void)
   x->tcp = socket_accept4(tcp53,x->ip,&x->port);
   if (x->tcp == -1) return;
   if (x->port < 1024) if (x->port != 53) { close(x->tcp); return; }
-  if (!okclient(x->ip)) { close(x->tcp); return; }
+ // if (!okclient(x->ip)) { close(x->tcp); return; }
+  if(!newokclient(list,x->ip)) { 
+    close(x->tcp); 
+    return;
+  }
   if (ndelay_on(x->tcp) == -1) { close(x->tcp); return; } /* Linux bug */
 
   x->active = 1; ++tactive;
@@ -443,5 +454,8 @@ int main()
     strerr_die2sys(111,FATAL,"unable to listen on TCP socket: ");
 
   log_startup();
+  list = malloc(sizeof(FLIST));
+  list->head = NULL;
+  createflist(list);
   doit();
 }

@@ -1,0 +1,1128 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALIGNMENT	alloc.c	5;"	d	file:
+ALLOC_H	alloc.h	2;"	d
+AUTO_HOME_H	auto_home.h	2;"	d
+BUFFER_H	buffer.h	2;"	d
+BUFFER_INIT	buffer.h	12;"	d
+BUFFER_INSIZE	buffer.h	13;"	d
+BUFFER_OUTSIZE	buffer.h	14;"	d
+BYTE_H	byte.h	2;"	d
+CACHE_H	cache.h	2;"	d
+CASE_H	case.h	2;"	d
+CDB_H	cdb.h	4;"	d
+CDB_HASHSTART	cdb.h	8;"	d
+CDB_HPLIST	cdb_make.h	9;"	d
+CDB_MAKE_H	cdb_make.h	4;"	d
+DD_H	dd.h	2;"	d
+DNS_C_ANY	dns.h	9;"	d
+DNS_C_IN	dns.h	8;"	d
+DNS_H	dns.h	2;"	d
+DNS_NAME4_DOMAIN	dns.h	73;"	d
+DNS_T_A	dns.h	11;"	d
+DNS_T_AAAA	dns.h	22;"	d
+DNS_T_ANY	dns.h	24;"	d
+DNS_T_AXFR	dns.h	23;"	d
+DNS_T_CNAME	dns.h	13;"	d
+DNS_T_HINFO	dns.h	16;"	d
+DNS_T_KEY	dns.h	21;"	d
+DNS_T_MX	dns.h	17;"	d
+DNS_T_NS	dns.h	12;"	d
+DNS_T_PTR	dns.h	15;"	d
+DNS_T_RP	dns.h	19;"	d
+DNS_T_SIG	dns.h	20;"	d
+DNS_T_SOA	dns.h	14;"	d
+DNS_T_TXT	dns.h	18;"	d
+DROPROOT_H	droproot.h	2;"	d
+ENV_H	env.h	2;"	d
+ERROR_H	error.h	2;"	d
+EXIT_H	exit.h	2;"	d
+FATAL	axfr-get.c	20;"	d	file:
+FATAL	axfrdns-conf.c	8;"	d	file:
+FATAL	axfrdns.c	27;"	d	file:
+FATAL	dnscache-conf.c	20;"	d	file:
+FATAL	dnscache.c	397;"	d	file:
+FATAL	dnsfilter.c	16;"	d	file:
+FATAL	dnsip.c	7;"	d	file:
+FATAL	dnsipq.c	7;"	d	file:
+FATAL	dnsmx.c	10;"	d	file:
+FATAL	dnsname.c	7;"	d	file:
+FATAL	dnsq.c	14;"	d	file:
+FATAL	dnsqr.c	13;"	d	file:
+FATAL	dnstrace.c	21;"	d	file:
+FATAL	dnstxt.c	6;"	d	file:
+FATAL	install.c	12;"	d	file:
+FATAL	instcheck.c	10;"	d	file:
+FATAL	pickdns-conf.c	8;"	d	file:
+FATAL	pickdns-data.c	22;"	d	file:
+FATAL	rbldns-conf.c	8;"	d	file:
+FATAL	rbldns-data.c	17;"	d	file:
+FATAL	tinydns-conf.c	8;"	d	file:
+FATAL	tinydns-data.c	26;"	d	file:
+FATAL	tinydns-edit.c	18;"	d	file:
+FATAL	tinydns-get.c	18;"	d	file:
+FATAL	walldns-conf.c	8;"	d	file:
+FMT_H	fmt.h	2;"	d
+FMT_LEN	fmt.h	5;"	d
+FMT_ULONG	fmt.h	4;"	d
+GENERIC_CONF_H	generic-conf.h	2;"	d
+GEN_ALLOC_DEFS_H	gen_allocdefs.h	2;"	d
+GEN_ALLOC_H	gen_alloc.h	2;"	d
+GEN_ALLOC_append	gen_allocdefs.h	30;"	d
+GEN_ALLOC_ready	gen_allocdefs.h	4;"	d
+GEN_ALLOC_readyplus	gen_allocdefs.h	17;"	d
+GEN_ALLOC_typedef	gen_alloc.h	4;"	d
+GETLN_H	getln.h	2;"	d
+IP4_FMT	ip4.h	7;"	d
+IP4_H	ip4.h	2;"	d
+LOG_H	log.h	2;"	d
+MAXDATALEN	cache.c	44;"	d	file:
+MAXKEYLEN	cache.c	43;"	d	file:
+MAXTCP	dnscache.c	142;"	d	file:
+MAXUDP	dnscache.c	61;"	d	file:
+MUSH	dns_random.c	12;"	d	file:
+NAMES	response.c	10;"	d	file:
+NDELAY_H	ndelay.h	2;"	d
+NUM	printpacket.c	12;"	d	file:
+NUMFIELDS	pickdns-data.c	114;"	d	file:
+NUMFIELDS	tinydns-data.c	169;"	d	file:
+NUMFIELDS	tinydns-edit.c	58;"	d	file:
+OKCLIENT_H	okclient.h	2;"	d
+OPENREADCLOSE_H	openreadclose.h	2;"	d
+OPEN_H	open.h	2;"	d
+O_NONBLOCK	ndelay_off.c	6;"	d	file:
+O_NONBLOCK	ndelay_on.c	6;"	d	file:
+PARSETYPE_H	parsetype.h	2;"	d
+PRINTPACKET_H	printpacket.h	2;"	d
+PRINTRECORD_H	printrecord.h	2;"	d
+PROT_H	prot.h	2;"	d
+QLOG_H	qlog.h	2;"	d
+QUERY_H	query.h	2;"	d
+QUERY_MAXALIAS	query.h	8;"	d
+QUERY_MAXLEVEL	query.h	7;"	d
+QUERY_MAXNS	query.h	9;"	d
+READCLOSE_H	readclose.h	2;"	d
+RESPONSE_ADDITIONAL	response.h	23;"	d
+RESPONSE_ANSWER	response.h	21;"	d
+RESPONSE_AUTHORITY	response.h	22;"	d
+RESPONSE_H	response.h	2;"	d
+ROOTS_H	roots.h	2;"	d
+ROTATE	dns_random.c	11;"	d	file:
+SCAN_H	scan.h	2;"	d
+SEEK_H	seek.h	2;"	d
+SET	seek_set.c	4;"	d	file:
+SGETOPTNOSHORT	sgetopt.c	14;"	d	file:
+SGETOPT_H	sgetopt.h	2;"	d
+SHELL	Makefile	/^SHELL=\/bin\/sh$/;"	m
+SOCKET_H	socket.h	2;"	d
+SPACE	alloc.c	6;"	d	file:
+STRALLOC_H	stralloc.h	2;"	d
+STRERR	strerr.h	18;"	d
+STRERR_H	strerr.h	2;"	d
+STRERR_SYS	strerr.h	21;"	d
+STRERR_SYS3	strerr.h	23;"	d
+STR_H	str.h	2;"	d
+SUBGETOPTDONE	subgetopt.h	14;"	d
+SUBGETOPTNOSHORT	sgetopt.c	16;"	d	file:
+SUBGETOPTNOSHORT	subgetopt.c	1;"	d	file:
+SUBGETOPT_H	subgetopt.h	2;"	d
+TAIA_FMTFRAC	taia.h	29;"	d
+TAIA_H	taia.h	2;"	d
+TAIA_PACK	taia.h	25;"	d
+TAI_H	tai.h	2;"	d
+TAI_PACK	tai.h	20;"	d
+TIMEOUTREAD_H	timeoutread.h	2;"	d
+TIMEOUTWRITE_H	timeoutwrite.h	2;"	d
+TTL_NEGATIVE	tinydns-data.c	24;"	d	file:
+TTL_NS	tinydns-data.c	22;"	d	file:
+TTL_NS	tinydns-edit.c	20;"	d	file:
+TTL_POSITIVE	tinydns-data.c	23;"	d	file:
+TTL_POSITIVE	tinydns-edit.c	21;"	d	file:
+UINT16_H	uint16.h	2;"	d
+WARNING	instcheck.c	11;"	d	file:
+X	error_str.c	4;"	d	file:
+X	printpacket.c	11;"	d	file:
+active	dnscache.c	/^  uint64 active; \/* query number or 1, if active; otherwise 0 *\/$/;"	m	struct:tcpclient	file:
+active	dnscache.c	/^  uint64 active; \/* query number, if active; otherwise 0 *\/$/;"	m	struct:udpclient	file:
+address	dnstrace.c	/^static address_alloc address;$/;"	v	file:
+address	dnstrace.c	/^struct address {$/;"	s	file:
+address	pickdns-data.c	/^struct address {$/;"	s	file:
+address_add	dnstrace.c	/^void address_add(const char *owner,const char ip[4])$/;"	f
+address_diff	pickdns-data.c	/^int address_diff(struct address *p,struct address *q)$/;"	f
+address_sort	pickdns-data.c	/^void address_sort(struct address *z,unsigned int n)$/;"	f
+alias	query.h	/^  char *alias[QUERY_MAXALIAS];$/;"	m	struct:query
+aliasttl	query.h	/^  uint32 aliasttl[QUERY_MAXALIAS];$/;"	m	struct:query
+aligned	alloc.c	/^typedef union { char irrelevant[ALIGNMENT]; double d; } aligned;$/;"	t	typeref:union:__anon1	file:
+alloc	alloc.c	/^\/*@null@*\/\/*@out@*\/char *alloc(n)$/;"	f
+alloc_free	alloc.c	/^void alloc_free(x)$/;"	f
+alloc_re	alloc_re.c	/^int alloc_re(x,m,n)$/;"	f
+allwrite	buffer_put.c	/^static int allwrite(int (*op)(),int fd,const char *buf,unsigned int len)$/;"	f	file:
+atto	taia.h	/^  unsigned long atto; \/* 0...999999999 *\/$/;"	m	struct:taia
+avail	alloc.c	/^static unsigned int avail = SPACE; \/* multiple of ALIGNMENT; 0<=avail<=SPACE *\/$/;"	v	file:
+axfr	axfrdns.c	/^char *axfr;$/;"	v
+axfrcheck	axfrdns.c	/^void axfrcheck(char *q)$/;"	f
+axfrok	axfrdns.c	/^static char *axfrok;$/;"	v	file:
+b	auto-str.c	/^buffer b = BUFFER_INIT(buffer_unixwrite,1,bspace,sizeof bspace);$/;"	v
+b	axfr-get.c	/^buffer b;$/;"	v
+b	cdb_make.h	/^  buffer b;$/;"	m	struct:cdb_make
+b	pickdns-data.c	/^buffer b;$/;"	v
+b	rbldns-data.c	/^buffer b;$/;"	v
+b	tinydns-data.c	/^buffer b;$/;"	v
+b	tinydns-edit.c	/^buffer b;$/;"	v
+base	rbldns-conf.c	/^char *base;$/;"	v
+base	rbldns.c	/^static char *base;$/;"	v	file:
+bcdb	axfrdns.c	/^buffer bcdb;$/;"	v
+bcdbspace	axfrdns.c	/^char bcdbspace[1024];$/;"	v
+bnew	tinydns-edit.c	/^buffer bnew;$/;"	v
+bnewspace	tinydns-edit.c	/^char bnewspace[1024];$/;"	v
+bspace	auto-str.c	/^char bspace[256];$/;"	v
+bspace	axfr-get.c	/^char bspace[1024];$/;"	v
+bspace	cdb_make.h	/^  char bspace[8192];$/;"	m	struct:cdb_make
+bspace	pickdns-data.c	/^char bspace[1024];$/;"	v
+bspace	rbldns-data.c	/^char bspace[1024];$/;"	v
+bspace	tinydns-data.c	/^char bspace[1024];$/;"	v
+bspace	tinydns-edit.c	/^char bspace[1024];$/;"	v
+buf	axfrdns.c	/^char buf[512];$/;"	v
+buf	dnscache.c	/^  char *buf; \/* 0, or dynamically allocated of length len *\/$/;"	m	struct:tcpclient	file:
+buf	dnscache.c	/^static char buf[1024];$/;"	v	file:
+buf	generic-conf.c	/^static char buf[1024];$/;"	v	file:
+buf	server.c	/^static char buf[513];$/;"	v	file:
+buffer	buffer.h	/^typedef struct buffer {$/;"	s
+buffer	buffer.h	/^} buffer;$/;"	t	typeref:struct:buffer
+buffer_1	buffer_1.c	/^buffer *buffer_1 = &it;$/;"	v
+buffer_1_space	buffer_1.c	/^char buffer_1_space[BUFFER_OUTSIZE];$/;"	v
+buffer_2	buffer_2.c	/^buffer *buffer_2 = &it;$/;"	v
+buffer_2_space	buffer_2.c	/^char buffer_2_space[256];$/;"	v
+buffer_GETC	buffer.h	42;"	d
+buffer_PEEK	buffer.h	39;"	d
+buffer_PUTC	buffer.h	26;"	d
+buffer_SEEK	buffer.h	40;"	d
+buffer_bget	buffer_get.c	/^int buffer_bget(buffer *s,char *buf,unsigned int len)$/;"	f
+buffer_copy	buffer_copy.c	/^int buffer_copy(buffer *bout,buffer *bin)$/;"	f
+buffer_feed	buffer_get.c	/^int buffer_feed(buffer *s)$/;"	f
+buffer_flush	buffer_put.c	/^int buffer_flush(buffer *s)$/;"	f
+buffer_get	buffer_get.c	/^int buffer_get(buffer *s,char *buf,unsigned int len)$/;"	f
+buffer_init	buffer.c	/^void buffer_init(buffer *s,int (*op)(),int fd,char *buf,unsigned int len)$/;"	f
+buffer_peek	buffer_get.c	/^char *buffer_peek(buffer *s)$/;"	f
+buffer_put	buffer_put.c	/^int buffer_put(buffer *s,const char *buf,unsigned int len)$/;"	f
+buffer_putalign	buffer_put.c	/^int buffer_putalign(buffer *s,const char *buf,unsigned int len)$/;"	f
+buffer_putflush	buffer_put.c	/^int buffer_putflush(buffer *s,const char *buf,unsigned int len)$/;"	f
+buffer_puts	buffer_put.c	/^int buffer_puts(buffer *s,const char *buf)$/;"	f
+buffer_putsalign	buffer_put.c	/^int buffer_putsalign(buffer *s,const char *buf)$/;"	f
+buffer_putsflush	buffer_put.c	/^int buffer_putsflush(buffer *s,const char *buf)$/;"	f
+buffer_seek	buffer_get.c	/^void buffer_seek(buffer *s,unsigned int len)$/;"	f
+buffer_unixread	buffer_read.c	/^int buffer_unixread(int fd,char *buf,unsigned int len)$/;"	f
+buffer_unixwrite	buffer_write.c	/^int buffer_unixwrite(int fd,const char *buf,unsigned int len)$/;"	f
+build	axfrdns.c	/^int build(stralloc *sa,char *q,int flagsoa,char id[2])$/;"	f
+byte_chr	byte_chr.c	/^unsigned int byte_chr(s,n,c)$/;"	f
+byte_copy	byte_copy.c	/^void byte_copy(to,n,from)$/;"	f
+byte_copyr	byte_cr.c	/^void byte_copyr(to,n,from)$/;"	f
+byte_diff	byte_diff.c	/^int byte_diff(s,n,t)$/;"	f
+byte_equal	byte.h	11;"	d
+byte_zero	byte_zero.c	/^void byte_zero(s,n)$/;"	f
+c	axfrdns.c	/^static struct cdb c;$/;"	v	typeref:struct:cdb	file:
+c	install.c	/^void c(home,subdir,file,uid,gid,mode)$/;"	f
+c	instcheck.c	/^void c(home,subdir,file,uid,gid,mode)$/;"	f
+c	pickdns.c	/^static struct cdb c;$/;"	v	typeref:struct:cdb	file:
+c	rbldns.c	/^static struct cdb c;$/;"	v	typeref:struct:cdb	file:
+c	tdlookup.c	/^static struct cdb c;$/;"	v	typeref:struct:cdb	file:
+cache_get	cache.c	/^char *cache_get(const char *key,unsigned int keylen,unsigned int *datalen,uint32 *ttl)$/;"	f
+cache_impossible	cache.c	/^static void cache_impossible(void)$/;"	f	file:
+cache_init	cache.c	/^int cache_init(unsigned int cachesize)$/;"	f
+cache_motion	cache.c	/^uint64 cache_motion = 0;$/;"	v
+cache_set	cache.c	/^void cache_set(const char *key,unsigned int keylen,const char *data,unsigned int datalen,uint32 ttl)$/;"	f
+cachegeneric	query.c	/^static void cachegeneric(const char type[2],const char *d,const char *data,unsigned int datalen,uint32 ttl)$/;"	f	file:
+case_diffb	case_diffb.c	/^int case_diffb(register const char *s,register unsigned int len,register const char *t)$/;"	f
+case_diffs	case_diffs.c	/^int case_diffs(register const char *s,register const char *t)$/;"	f
+case_equals	case.h	11;"	d
+case_lowerb	case_lowerb.c	/^void case_lowerb(char *s,unsigned int len)$/;"	f
+cdb	cdb.h	/^struct cdb {$/;"	s
+cdb	pickdns-data.c	/^struct cdb_make cdb;$/;"	v	typeref:struct:cdb_make
+cdb	rbldns-data.c	/^struct cdb_make cdb;$/;"	v	typeref:struct:cdb_make
+cdb	tinydns-data.c	/^struct cdb_make cdb;$/;"	v	typeref:struct:cdb_make
+cdb_datalen	cdb.h	35;"	d
+cdb_datapos	cdb.h	34;"	d
+cdb_find	cdb.c	/^int cdb_find(struct cdb *c,const char *key,unsigned int len)$/;"	f
+cdb_findnext	cdb.c	/^int cdb_findnext(struct cdb *c,const char *key,unsigned int len)$/;"	f
+cdb_findstart	cdb.c	/^void cdb_findstart(struct cdb *c)$/;"	f
+cdb_free	cdb.c	/^void cdb_free(struct cdb *c)$/;"	f
+cdb_hash	cdb_hash.c	/^uint32 cdb_hash(const char *buf,unsigned int len)$/;"	f
+cdb_hashadd	cdb_hash.c	/^uint32 cdb_hashadd(uint32 h,unsigned char c)$/;"	f
+cdb_hp	cdb_make.h	/^struct cdb_hp { uint32 h; uint32 p; } ;$/;"	s
+cdb_hplist	cdb_make.h	/^struct cdb_hplist {$/;"	s
+cdb_init	cdb.c	/^void cdb_init(struct cdb *c,int fd)$/;"	f
+cdb_make	cdb_make.h	/^struct cdb_make {$/;"	s
+cdb_make_add	cdb_make.c	/^int cdb_make_add(struct cdb_make *c,const char *key,unsigned int keylen,const char *data,unsigned int datalen)$/;"	f
+cdb_make_addbegin	cdb_make.c	/^int cdb_make_addbegin(struct cdb_make *c,unsigned int keylen,unsigned int datalen)$/;"	f
+cdb_make_addend	cdb_make.c	/^int cdb_make_addend(struct cdb_make *c,unsigned int keylen,unsigned int datalen,uint32 h)$/;"	f
+cdb_make_finish	cdb_make.c	/^int cdb_make_finish(struct cdb_make *c)$/;"	f
+cdb_make_start	cdb_make.c	/^int cdb_make_start(struct cdb_make *c,int fd)$/;"	f
+cdb_read	cdb.c	/^int cdb_read(struct cdb *c,char *buf,unsigned int len,uint32 pos)$/;"	f
+cleanup	query.c	/^static void cleanup(struct query *z)$/;"	f	file:
+clientloc	axfrdns.c	/^char clientloc[2];$/;"	v
+clientloc	tdlookup.c	/^static char clientloc[2];$/;"	v	file:
+cname	dnstrace.c	/^static char *cname;$/;"	v	file:
+cname	query.c	/^static char *cname = 0;$/;"	v	file:
+control	dnstrace.c	/^  char *control;$/;"	m	struct:qt	file:
+control	query.h	/^  char *control[QUERY_MAXLEVEL]; \/* pointing inside name *\/$/;"	m	struct:query
+copy	axfrdns.c	/^void copy(char *buf,unsigned int len)$/;"	f
+copyfrom	generic-conf.c	/^void copyfrom(buffer *b)$/;"	f
+count	cdb_make.h	/^  uint32 count[256];$/;"	m	struct:cdb_make
+curserver	dns.h	/^  unsigned int curserver;$/;"	m	struct:dns_transmit
+d	alloc.c	/^typedef union { char irrelevant[ALIGNMENT]; double d; } aligned;$/;"	m	union:__anon1	file:
+d	install.c	/^void d(home,subdir,uid,gid,mode)$/;"	f
+d	instcheck.c	/^void d(home,subdir,uid,gid,mode)$/;"	f
+d	printpacket.c	/^static char *d;$/;"	v	file:
+d	printrecord.c	/^static char *d;$/;"	v	file:
+d1	axfr-get.c	/^static char *d1;$/;"	v	file:
+d1	tdlookup.c	/^static char *d1;$/;"	v	file:
+d1	tinydns-data.c	/^static char *d1;$/;"	v	file:
+d1	tinydns-edit.c	/^static char *d1;$/;"	v	file:
+d2	axfr-get.c	/^static char *d2;$/;"	v	file:
+d2	tinydns-data.c	/^static char *d2;$/;"	v	file:
+d2	tinydns-edit.c	/^static char *d2;$/;"	v	file:
+d3	axfr-get.c	/^static char *d3;$/;"	v	file:
+data	axfrdns.c	/^char data[32767];$/;"	v
+data	dns_rcip.c	/^static stralloc data = {0};$/;"	v	file:
+data	dns_rcrw.c	/^static stralloc data = {0};$/;"	v	file:
+data	pickdns.c	/^static char data[512];$/;"	v	file:
+data	rbldns.c	/^static char data[100 + IP4_FMT];$/;"	v	file:
+data	roots.c	/^static stralloc data;$/;"	v	file:
+data	tdlookup.c	/^static char data[32767];$/;"	v	file:
+dd	dd.c	/^int dd(const char *q,const char *base,char ip[4])$/;"	f
+deadline	dns.h	/^  struct taia deadline;$/;"	m	struct:dns_transmit	typeref:struct:dns_transmit::taia
+deadline	dns_rcip.c	/^static struct taia deadline;$/;"	v	typeref:struct:taia	file:
+deadline	dns_rcrw.c	/^static struct taia deadline;$/;"	v	typeref:struct:taia	file:
+defaultsoa	tinydns-data.c	/^char defaultsoa[20];$/;"	v
+defaultsoa_init	tinydns-data.c	/^void defaultsoa_init(int fd)$/;"	f
+die_cdbformat	axfrdns.c	/^void die_cdbformat()$/;"	f
+die_cdbread	axfrdns.c	/^void die_cdbread()$/;"	f
+die_datatmp	pickdns-data.c	/^void die_datatmp(void)$/;"	f
+die_datatmp	rbldns-data.c	/^void die_datatmp(void)$/;"	f
+die_datatmp	tinydns-data.c	/^void die_datatmp(void)$/;"	f
+die_generate	axfr-get.c	/^void die_generate(void)$/;"	f
+die_netread	axfr-get.c	/^void die_netread(void)$/;"	f
+die_netread	axfrdns.c	/^void die_netread()$/;"	f
+die_netwrite	axfr-get.c	/^void die_netwrite(void)$/;"	f
+die_netwrite	axfrdns.c	/^void die_netwrite()$/;"	f
+die_outside	axfrdns.c	/^void die_outside()$/;"	f
+die_parse	axfr-get.c	/^void die_parse(void)$/;"	f
+die_read	axfr-get.c	/^void die_read(void)$/;"	f
+die_read	tinydns-edit.c	/^void die_read()$/;"	f
+die_truncated	axfrdns.c	/^void die_truncated()$/;"	f
+die_usage	axfr-get.c	/^void die_usage(void)$/;"	f
+die_usage	tinydns-edit.c	/^void die_usage()$/;"	f
+die_write	axfr-get.c	/^void die_write(void)$/;"	f
+die_write	tinydns-edit.c	/^void die_write()$/;"	f
+dir	axfrdns-conf.c	/^char *dir;$/;"	v
+dir	dnscache-conf.c	/^char *dir;$/;"	v
+dir	generic-conf.c	/^static const char *dir;$/;"	v	file:
+dir	pickdns-conf.c	/^char *dir;$/;"	v
+dir	rbldns-conf.c	/^char *dir;$/;"	v
+dir	tinydns-conf.c	/^char *dir;$/;"	v
+dir	walldns-conf.c	/^char *dir;$/;"	v
+dlen	axfrdns.c	/^uint32 dlen;$/;"	v
+dlen	cdb.h	/^  uint32 dlen; \/* initialized if cdb_findnext() returns 1 *\/$/;"	m	struct:cdb
+dlen	tdlookup.c	/^static uint32 dlen;$/;"	v	file:
+dns_domain_copy	dns_domain.c	/^int dns_domain_copy(char **out,const char *in)$/;"	f
+dns_domain_equal	dns_domain.c	/^int dns_domain_equal(const char *dn1,const char *dn2)$/;"	f
+dns_domain_free	dns_domain.c	/^void dns_domain_free(char **out)$/;"	f
+dns_domain_fromdot	dns_dfd.c	/^int dns_domain_fromdot(char **out,const char *buf,unsigned int n)$/;"	f
+dns_domain_length	dns_domain.c	/^unsigned int dns_domain_length(const char *dn)$/;"	f
+dns_domain_suffix	dns_domain.c	/^int dns_domain_suffix(const char *big,const char *little)$/;"	f
+dns_domain_suffixpos	dns_domain.c	/^unsigned int dns_domain_suffixpos(const char *big,const char *little)$/;"	f
+dns_domain_todot_cat	dns_dtda.c	/^int dns_domain_todot_cat(stralloc *out,const char *d)$/;"	f
+dns_ip4	dns_ip.c	/^int dns_ip4(stralloc *out,const stralloc *fqdn)$/;"	f
+dns_ip4_packet	dns_ip.c	/^int dns_ip4_packet(stralloc *out,const char *buf,unsigned int len)$/;"	f
+dns_ip4_qualify	dns_ipq.c	/^int dns_ip4_qualify(stralloc *out,stralloc *fqdn,const stralloc *in)$/;"	f
+dns_ip4_qualify_rules	dns_ipq.c	/^int dns_ip4_qualify_rules(stralloc *out,stralloc *fqdn,const stralloc *in,const stralloc *rules)$/;"	f
+dns_mx	dns_mx.c	/^int dns_mx(stralloc *out,const stralloc *fqdn)$/;"	f
+dns_mx_packet	dns_mx.c	/^int dns_mx_packet(stralloc *out,const char *buf,unsigned int len)$/;"	f
+dns_name4	dns_name.c	/^int dns_name4(stralloc *out,const char ip[4])$/;"	f
+dns_name4_domain	dns_nd.c	/^void dns_name4_domain(char name[DNS_NAME4_DOMAIN],const char ip[4])$/;"	f
+dns_name_packet	dns_name.c	/^int dns_name_packet(stralloc *out,const char *buf,unsigned int len)$/;"	f
+dns_packet_copy	dns_packet.c	/^unsigned int dns_packet_copy(const char *buf,unsigned int len,unsigned int pos,char *out,unsigned int outlen)$/;"	f
+dns_packet_getname	dns_packet.c	/^unsigned int dns_packet_getname(const char *buf,unsigned int len,unsigned int pos,char **d)$/;"	f
+dns_packet_skipname	dns_packet.c	/^unsigned int dns_packet_skipname(const char *buf,unsigned int len,unsigned int pos)$/;"	f
+dns_random	dns_random.c	/^unsigned int dns_random(unsigned int n)$/;"	f
+dns_random_init	dns_random.c	/^void dns_random_init(const char data[128])$/;"	f
+dns_resolvconfip	dns_rcip.c	/^int dns_resolvconfip(char s[64])$/;"	f
+dns_resolvconfrewrite	dns_rcrw.c	/^int dns_resolvconfrewrite(stralloc *out)$/;"	f
+dns_resolve	dns_resolve.c	/^int dns_resolve(const char *q,const char qtype[2])$/;"	f
+dns_resolve_tx	dns_resolve.c	/^struct dns_transmit dns_resolve_tx = {0};$/;"	v	typeref:struct:dns_transmit
+dns_sortip	dns_sortip.c	/^void dns_sortip(char *s,unsigned int n)$/;"	f
+dns_transmit	dns.h	/^struct dns_transmit {$/;"	s
+dns_transmit_free	dns_transmit.c	/^void dns_transmit_free(struct dns_transmit *d)$/;"	f
+dns_transmit_get	dns_transmit.c	/^int dns_transmit_get(struct dns_transmit *d,const iopause_fd *x,const struct taia *when)$/;"	f
+dns_transmit_io	dns_transmit.c	/^void dns_transmit_io(struct dns_transmit *d,iopause_fd *x,struct taia *deadline)$/;"	f
+dns_transmit_start	dns_transmit.c	/^int dns_transmit_start(struct dns_transmit *d,const char servers[64],int flagrecursive,const char *q,const char qtype[2],const char localip[4])$/;"	f
+dns_txt	dns_txt.c	/^int dns_txt(stralloc *out,const stralloc *fqdn)$/;"	f
+dns_txt_packet	dns_txt.c	/^int dns_txt_packet(stralloc *out,const char *buf,unsigned int len)$/;"	f
+doaxfr	axfrdns.c	/^void doaxfr(char id[2])$/;"	f
+dobytes	tdlookup.c	/^static int dobytes(unsigned int len)$/;"	f	file:
+doit	axfr-get.c	/^unsigned int doit(char *buf,unsigned int len,unsigned int pos)$/;"	f
+doit	dns_ipq.c	/^static int doit(stralloc *work,const char *rule)$/;"	f	file:
+doit	dnscache.c	/^static void doit(void)$/;"	f	file:
+doit	pickdns.c	/^static int doit(char *q,char qtype[2],char ip[4])$/;"	f	file:
+doit	query.c	/^static int doit(struct query *z,int state)$/;"	f	file:
+doit	rbldns.c	/^static int doit(char *q,char qtype[2])$/;"	f	file:
+doit	server.c	/^static int doit(void)$/;"	f	file:
+doit	tdlookup.c	/^static int doit(char *q,char qtype[2])$/;"	f	file:
+doname	axfrdns.c	/^void doname(stralloc *sa)$/;"	f
+doname	tdlookup.c	/^static int doname(void)$/;"	f	file:
+dpos	axfrdns.c	/^uint32 dpos;$/;"	v
+dpos	cdb.h	/^  uint32 dpos; \/* initialized if cdb_findnext() returns 1 *\/$/;"	m	struct:cdb
+dpos	response.c	/^static unsigned int dpos;$/;"	v	file:
+dpos	tdlookup.c	/^static unsigned int dpos;$/;"	v	file:
+dptr	tinydns-data.c	/^char dptr[DNS_NAME4_DOMAIN];$/;"	v
+droproot	droproot.c	/^void droproot(const char *fatal)$/;"	f
+dt	dnsfilter.c	/^  struct dns_transmit dt;$/;"	m	struct:line	typeref:struct:line::dns_transmit	file:
+dt	query.h	/^  struct dns_transmit dt;$/;"	m	struct:query	typeref:struct:query::dns_transmit
+env_get	env.c	/^extern \/*@null@*\/char *env_get(const char *s)$/;"	f
+error_acces	error.c	/^int error_acces =$/;"	v
+error_again	error.c	/^int error_again =$/;"	v
+error_connrefused	error.c	/^int error_connrefused =$/;"	v
+error_exist	error.c	/^int error_exist =$/;"	v
+error_inprogress	error.c	/^int error_inprogress =$/;"	v
+error_intr	error.c	/^int error_intr =$/;"	v
+error_io	error.c	/^int error_io =$/;"	v
+error_isdir	error.c	/^int error_isdir =$/;"	v
+error_nodevice	error.c	/^int error_nodevice =$/;"	v
+error_noent	error.c	/^int error_noent = $/;"	v
+error_nomem	error.c	/^int error_nomem =$/;"	v
+error_perm	error.c	/^int error_perm =$/;"	v
+error_pipe	error.c	/^int error_pipe =$/;"	v
+error_proto	error.c	/^int error_proto =$/;"	v
+error_str	error_str.c	/^const char *error_str(int i)$/;"	f
+error_timeout	error.c	/^int error_timeout =$/;"	v
+error_txtbsy	error.c	/^int error_txtbsy =$/;"	v
+error_wouldblock	error.c	/^int error_wouldblock =$/;"	v
+errout	dnsfilter.c	/^void errout(int i)$/;"	f
+f	pickdns-data.c	/^static stralloc f[NUMFIELDS];$/;"	v	file:
+f	tinydns-data.c	/^static stralloc f[NUMFIELDS];$/;"	v	file:
+f	tinydns-edit.c	/^static stralloc f[NUMFIELDS];$/;"	v	file:
+fail	generic-conf.c	/^void fail(void)$/;"	f
+fatal	generic-conf.c	/^static const char *fatal;$/;"	v	file:
+fatal	pickdns.c	/^const char *fatal = "pickdns: fatal: ";$/;"	v
+fatal	rbldns.c	/^const char *fatal = "rbldns: fatal: ";$/;"	v
+fatal	tinydns.c	/^const char *fatal = "tinydns: fatal: ";$/;"	v
+fatal	walldns.c	/^const char *fatal = "walldns: fatal: ";$/;"	v
+fd	axfr-get.c	/^int fd;$/;"	v
+fd	buffer.h	/^  int fd;$/;"	m	struct:buffer
+fd	cdb.h	/^  int fd;$/;"	m	struct:cdb
+fd	cdb_make.h	/^  int fd;$/;"	m	struct:cdb_make
+fd	generic-conf.c	/^static int fd;$/;"	v	file:
+fd	pickdns-data.c	/^int fd;$/;"	v
+fd	rbldns-data.c	/^int fd;$/;"	v
+fd	tinydns-edit.c	/^int fd;$/;"	v
+fdcdb	axfrdns.c	/^int fdcdb;$/;"	v
+fdcdb	pickdns-data.c	/^int fdcdb;$/;"	v
+fdcdb	rbldns-data.c	/^int fdcdb;$/;"	v
+fdcdb	tinydns-data.c	/^int fdcdb;$/;"	v
+fdnew	tinydns-edit.c	/^int fdnew;$/;"	v
+fdrootservers	dnscache-conf.c	/^int fdrootservers;$/;"	v
+fdsourcedir	install.c	/^int fdsourcedir = -1;$/;"	v
+final	cdb_make.h	/^  char final[2048];$/;"	m	struct:cdb_make
+find	tdlookup.c	/^static int find(char *d,int flagwild)$/;"	f	file:
+finish	generic-conf.c	/^void finish(void)$/;"	f
+firsttcp	dns_transmit.c	/^static int firsttcp(struct dns_transmit *d)$/;"	f	file:
+firstudp	dns_transmit.c	/^static int firstudp(struct dns_transmit *d)$/;"	f	file:
+flag0	dnsfilter.c	/^int flag0 = 1;$/;"	v
+flagactive	dnsfilter.c	/^  int flagactive;$/;"	m	struct:line	file:
+flagforwardonly	query.c	/^static int flagforwardonly = 0;$/;"	v	file:
+flaghidettl	response.c	/^static int flaghidettl = 0;$/;"	v	file:
+fmt_ulong	fmt_ulong.c	/^unsigned int fmt_ulong(register char *s,register unsigned long u)$/;"	f
+fn	axfr-get.c	/^char *fn;$/;"	v
+fn	generic-conf.c	/^static const char *fn;$/;"	v	file:
+fn	okclient.c	/^static char fn[3 + IP4_FMT];$/;"	v	file:
+fn	tinydns-edit.c	/^char *fn;$/;"	v
+fn	utime.c	/^char *fn;$/;"	v
+fnnew	tinydns-edit.c	/^char *fnnew;$/;"	v
+fntmp	axfr-get.c	/^char *fntmp;$/;"	v
+foo	trydrent.c	/^void foo()$/;"	f
+foo	trysysel.c	/^void foo()$/;"	f
+fqdn	dnsip.c	/^static stralloc fqdn;$/;"	v	file:
+fqdn	dnsipq.c	/^static stralloc fqdn;$/;"	v	file:
+fqdn	dnsmx.c	/^static stralloc fqdn;$/;"	v	file:
+fqdn	dnsq.c	/^static stralloc fqdn;$/;"	v	file:
+fqdn	dnstxt.c	/^static stralloc fqdn;$/;"	v	file:
+get	axfrdns.c	/^void get(char *buf,unsigned int len)$/;"	f
+get4	cache.c	/^static uint32 get4(uint32 pos)$/;"	f	file:
+getln	getln.c	/^int getln(buffer *ss,stralloc *sa,int *match,int sep)$/;"	f
+getln2	getln2.c	/^int getln2(buffer *ss,stralloc *sa,char **cont,unsigned int *clen,int sep)$/;"	f
+getopt	sgetopt.c	/^int getopt(int argc,char **argv,const char *opts)$/;"	f
+getopt	sgetopt.c	19;"	d	file:
+getopt	sgetopt.h	5;"	d
+getthis	buffer_get.c	/^static int getthis(buffer *s,char *buf,unsigned int len)$/;"	f	file:
+globalip	query.c	/^static int globalip(char *d,char ip[4])$/;"	f	file:
+h	cdb_make.h	/^struct cdb_hp { uint32 h; uint32 p; } ;$/;"	m	struct:cdb_hp
+h	install.c	/^void h(home,uid,gid,mode)$/;"	f
+h	instcheck.c	/^void h(home,uid,gid,mode)$/;"	f
+hash	cache.c	/^static unsigned int hash(const char *key,unsigned int keylen)$/;"	f	file:
+hash	cdb_make.h	/^  struct cdb_hp *hash;$/;"	m	struct:cdb_make	typeref:struct:cdb_make::cdb_hp
+head	cdb_make.h	/^  struct cdb_hplist *head;$/;"	m	struct:cdb_make	typeref:struct:cdb_make::cdb_hplist
+hex	log.c	/^static void hex(unsigned char c)$/;"	f	file:
+hex	qlog.c	/^static void hex(unsigned char c)$/;"	f	file:
+hier	hier.c	/^void hier()$/;"	f
+hp	cdb_make.h	/^  struct cdb_hp hp[CDB_HPLIST];$/;"	m	struct:cdb_hplist	typeref:struct:cdb_hplist::cdb_hp
+hpos	cdb.h	/^  uint32 hpos; \/* initialized if loop is nonzero *\/$/;"	m	struct:cdb
+hsize	cache.c	/^static uint32 hsize;$/;"	v	file:
+hslots	cdb.h	/^  uint32 hslots; \/* initialized if loop is nonzero *\/$/;"	m	struct:cdb
+id	dnscache.c	/^  char id[2];$/;"	m	struct:tcpclient	file:
+id	dnscache.c	/^  char id[2];$/;"	m	struct:udpclient	file:
+in	dns_random.c	/^static uint32 in[12];$/;"	v	file:
+in	dnsipq.c	/^static stralloc in;$/;"	v	file:
+inbuf	dnsfilter.c	/^char inbuf[1024];$/;"	v
+inbuf	install.c	/^char inbuf[BUFFER_INSIZE];$/;"	v
+inbuflen	dnsfilter.c	/^int inbuflen = 0;$/;"	v
+inio	dnsfilter.c	/^iopause_fd *inio;$/;"	v
+init	dns_rcip.c	/^static int init(char ip[64])$/;"	f	file:
+init	dns_rcrw.c	/^static int init(stralloc *rules)$/;"	f	file:
+init	generic-conf.c	/^void init(const char *d,const char *f)$/;"	f
+init1	roots.c	/^static int init1(void)$/;"	f	file:
+init2	roots.c	/^static int init2(DIR *dir)$/;"	f	file:
+initialize	pickdns.c	/^void initialize(void)$/;"	f
+initialize	rbldns.c	/^void initialize(void)$/;"	f
+initialize	tinydns.c	/^void initialize(void)$/;"	f
+initialize	walldns.c	/^void initialize(void)$/;"	f
+io	dnscache.c	/^  iopause_fd *io;$/;"	m	struct:tcpclient	file:
+io	dnscache.c	/^  iopause_fd *io;$/;"	m	struct:udpclient	file:
+io	dnscache.c	/^iopause_fd io[3 + MAXUDP + MAXTCP];$/;"	v
+io	dnsfilter.c	/^  iopause_fd *io;$/;"	m	struct:line	file:
+io	dnsfilter.c	/^iopause_fd *io;$/;"	v
+iolen	dnsfilter.c	/^int iolen;$/;"	v
+iopause	iopause.c	/^void iopause(iopause_fd *x,unsigned int len,struct taia *deadline,struct taia *stamp)$/;"	f
+ip	axfrdns.c	/^char ip[4];$/;"	v
+ip	dns_rcip.c	/^static char ip[64]; \/* defined if ok *\/$/;"	v	file:
+ip	dnscache.c	/^  char ip[4]; \/* send response to this address *\/$/;"	m	struct:tcpclient	file:
+ip	dnscache.c	/^  char ip[4];$/;"	m	struct:udpclient	file:
+ip	dnsfilter.c	/^char ip[4];$/;"	v
+ip	dnsname.c	/^char ip[4];$/;"	v
+ip	dnsq.c	/^static stralloc ip;$/;"	v	file:
+ip	dnstrace.c	/^  char ip[4];$/;"	m	struct:address	file:
+ip	dnstrace.c	/^  char ip[4];$/;"	m	struct:qt	file:
+ip	log.c	/^static void ip(const char i[4])$/;"	f	file:
+ip	pickdns-data.c	/^  char ip[4];$/;"	m	struct:address	file:
+ip	random-ip.c	/^char ip[4];$/;"	v
+ip	server.c	/^static char ip[4];$/;"	v	file:
+ip	tinydns-edit.c	/^char ip[4];$/;"	v
+ip	tinydns-get.c	/^static char ip[4];$/;"	v	file:
+ip4_fmt	ip4_fmt.c	/^unsigned int ip4_fmt(char *s,const char ip[4])$/;"	f
+ip4_scan	ip4_scan.c	/^unsigned int ip4_scan(const char *s,char ip[4])$/;"	f
+ipfixed	random-ip.c	/^int ipfixed = 0;$/;"	v
+ipprefix_cat	pickdns-data.c	/^void ipprefix_cat(stralloc *out,char *s)$/;"	f
+ipprefix_cat	tinydns-data.c	/^void ipprefix_cat(stralloc *out,char *s)$/;"	f
+ipstr	dnstrace.c	/^char ipstr[IP4_FMT];$/;"	v
+ipstr	tinydns-edit.c	/^char ipstr[IP4_FMT];$/;"	v
+irrelevant	alloc.c	/^typedef union { char irrelevant[ALIGNMENT]; double d; } aligned;$/;"	m	union:__anon1	file:
+irrelevant	dns_transmit.c	/^static int irrelevant(const struct dns_transmit *d,const char *buf,unsigned int len)$/;"	f	file:
+it	buffer_1.c	/^static buffer it = BUFFER_INIT(buffer_unixwrite,1,buffer_1_space,sizeof buffer_1_space);$/;"	v	file:
+it	buffer_2.c	/^static buffer it = BUFFER_INIT(buffer_unixwrite,2,buffer_2_space,sizeof buffer_2_space);$/;"	v	file:
+key	pickdns-data.c	/^static stralloc key;$/;"	v	file:
+key	pickdns.c	/^static char key[258];$/;"	v	file:
+key	rbldns.c	/^static char key[5];$/;"	v	file:
+key	tinydns-data.c	/^static stralloc key;$/;"	v	file:
+khash	cdb.h	/^  uint32 khash; \/* initialized if loop is nonzero *\/$/;"	m	struct:cdb
+kpos	cdb.h	/^  uint32 kpos; \/* initialized if loop is nonzero *\/$/;"	m	struct:cdb
+left	dnsfilter.c	/^  stralloc left;$/;"	m	struct:line	file:
+len	axfrdns.c	/^uint16 len;$/;"	v
+len	dnscache.c	/^  unsigned int len;$/;"	m	struct:tcpclient	file:
+len	server.c	/^static int len;$/;"	v	file:
+level	query.h	/^  unsigned int level;$/;"	m	struct:query
+line	axfr-get.c	/^stralloc line;$/;"	v
+line	dnsfilter.c	/^struct line {$/;"	s	file:
+line	log.c	/^static void line(void)$/;"	f	file:
+line	pickdns-data.c	/^static stralloc line;$/;"	v	file:
+line	rbldns-data.c	/^static stralloc line;$/;"	v	file:
+line	tinydns-data.c	/^static stralloc line;$/;"	v	file:
+line	tinydns-edit.c	/^static stralloc line;$/;"	v	file:
+linenum	pickdns-data.c	/^unsigned long linenum = 0;$/;"	v
+linenum	rbldns-data.c	/^unsigned long linenum = 0;$/;"	v
+linenum	tinydns-data.c	/^unsigned long linenum = 0;$/;"	v
+list	dnscache.c	/^FLIST *list;$/;"	v
+localip	dns.h	/^  char localip[4];$/;"	m	struct:dns_transmit
+localip	query.h	/^  char localip[4];$/;"	m	struct:query
+location	pickdns-data.c	/^  char location[2];$/;"	m	struct:address	file:
+locparse	tinydns-data.c	/^void locparse(stralloc *sa,char loc[2])$/;"	f
+log_cachedanswer	log.c	/^void log_cachedanswer(const char *q,const char type[2])$/;"	f
+log_cachedcname	log.c	/^void log_cachedcname(const char *dn,const char *dn2)$/;"	f
+log_cachedns	log.c	/^void log_cachedns(const char *control,const char *ns)$/;"	f
+log_cachednxdomain	log.c	/^void log_cachednxdomain(const char *dn)$/;"	f
+log_lame	log.c	/^void log_lame(const char server[4],const char *control,const char *referral)$/;"	f
+log_nodata	log.c	/^void log_nodata(const char server[4],const char *q,const char qtype[2],unsigned int ttl)$/;"	f
+log_nxdomain	log.c	/^void log_nxdomain(const char server[4],const char *q,unsigned int ttl)$/;"	f
+log_query	log.c	/^void log_query(uint64 *qnum,const char client[4],unsigned int port,const char id[2],const char *q,const char qtype[2])$/;"	f
+log_querydone	log.c	/^void log_querydone(uint64 *qnum,unsigned int len)$/;"	f
+log_querydrop	log.c	/^void log_querydrop(uint64 *qnum)$/;"	f
+log_rr	log.c	/^void log_rr(const char server[4],const char *q,const char type[2],const char *buf,unsigned int len,unsigned int ttl)$/;"	f
+log_rrcname	log.c	/^void log_rrcname(const char server[4],const char *q,const char *data,unsigned int ttl)$/;"	f
+log_rrmx	log.c	/^void log_rrmx(const char server[4],const char *q,const char *mx,const char pref[2],unsigned int ttl)$/;"	f
+log_rrns	log.c	/^void log_rrns(const char server[4],const char *q,const char *data,unsigned int ttl)$/;"	f
+log_rrptr	log.c	/^void log_rrptr(const char server[4],const char *q,const char *data,unsigned int ttl)$/;"	f
+log_rrsoa	log.c	/^void log_rrsoa(const char server[4],const char *q,const char *n1,const char *n2,const char misc[20],unsigned int ttl)$/;"	f
+log_servfail	log.c	/^void log_servfail(const char *dn)$/;"	f
+log_startup	log.c	/^void log_startup(void)$/;"	f
+log_stats	log.c	/^void log_stats(void)$/;"	f
+log_tcpclose	log.c	/^void log_tcpclose(const char client[4],unsigned int port)$/;"	f
+log_tcpopen	log.c	/^void log_tcpopen(const char client[4],unsigned int port)$/;"	f
+log_tx	log.c	/^void log_tx(const char *q,const char qtype[2],const char *control,const char servers[64],unsigned int gluelessness)$/;"	f
+logid	log.c	/^static void logid(const char id[2])$/;"	f	file:
+logtype	log.c	/^static void logtype(const char type[2])$/;"	f	file:
+loguser	axfrdns-conf.c	/^char *loguser;$/;"	v
+loguser	dnscache-conf.c	/^char *loguser;$/;"	v
+loguser	pickdns-conf.c	/^char *loguser;$/;"	v
+loguser	rbldns-conf.c	/^char *loguser;$/;"	v
+loguser	tinydns-conf.c	/^char *loguser;$/;"	v
+loguser	walldns-conf.c	/^char *loguser;$/;"	v
+loop	cdb.h	/^  uint32 loop; \/* number of hash slots searched under this key *\/$/;"	m	struct:cdb
+loop	query.h	/^  unsigned int loop;$/;"	m	struct:query
+loops	random-ip.c	/^unsigned long loops = 10000;$/;"	v
+main	auto-str.c	/^int main(int argc,char **argv)$/;"	f
+main	axfr-get.c	/^int main(int argc,char **argv)$/;"	f
+main	axfrdns-conf.c	/^int main(int argc,char **argv)$/;"	f
+main	axfrdns.c	/^int main()$/;"	f
+main	cachetest.c	/^int main(int argc,char **argv)$/;"	f
+main	chkshsgr.c	/^int main()$/;"	f
+main	dnscache-conf.c	/^int main(int argc,char **argv)$/;"	f
+main	dnscache.c	/^int main()$/;"	f
+main	dnsfilter.c	/^int main(int argc,char **argv)$/;"	f
+main	dnsip.c	/^int main(int argc,char **argv)$/;"	f
+main	dnsipq.c	/^int main(int argc,char **argv)$/;"	f
+main	dnsmx.c	/^int main(int argc,char **argv)$/;"	f
+main	dnsname.c	/^int main(int argc,char **argv)$/;"	f
+main	dnsq.c	/^int main(int argc,char **argv)$/;"	f
+main	dnsqr.c	/^int main(int argc,char **argv)$/;"	f
+main	dnstrace.c	/^int main(int argc,char **argv)$/;"	f
+main	dnstxt.c	/^int main(int argc,char **argv)$/;"	f
+main	install.c	/^int main()$/;"	f
+main	instcheck.c	/^int main()$/;"	f
+main	pickdns-conf.c	/^int main(int argc,char **argv)$/;"	f
+main	pickdns-data.c	/^int main()$/;"	f
+main	random-ip.c	/^int main(int argc,char **argv)$/;"	f
+main	rbldns-conf.c	/^int main(int argc,char **argv)$/;"	f
+main	rbldns-data.c	/^int main()$/;"	f
+main	server.c	/^int main()$/;"	f
+main	tinydns-conf.c	/^int main(int argc,char **argv)$/;"	f
+main	tinydns-data.c	/^int main()$/;"	f
+main	tinydns-edit.c	/^int main(int argc,char **argv)$/;"	f
+main	tinydns-get.c	/^int main(int argc,char **argv)$/;"	f
+main	trycpp.c	/^int main()$/;"	f
+main	trylsock.c	/^int main()$/;"	f
+main	trypoll.c	/^int main()$/;"	f
+main	tryshsgr.c	/^int main()$/;"	f
+main	tryulong32.c	/^int main()$/;"	f
+main	tryulong64.c	/^int main()$/;"	f
+main	utime.c	/^int main(int argc,char **argv)$/;"	f
+main	walldns-conf.c	/^int main(int argc,char **argv)$/;"	f
+main	x86cpuid.c	/^int main()$/;"	f
+makedir	generic-conf.c	/^void makedir(const char *s)$/;"	f
+makelog	generic-conf.c	/^void makelog(const char *user,int uid,int gid)$/;"	f
+map	cdb.h	/^  char *map; \/* 0 if no map is available *\/$/;"	m	struct:cdb
+match	axfr-get.c	/^int match;$/;"	v
+match	cdb.c	/^static int match(struct cdb *c,const char *key,unsigned int len,uint32 pos)$/;"	f	file:
+match	pickdns-data.c	/^int match = 1;$/;"	v
+match	rbldns-data.c	/^int match = 1;$/;"	v
+match	tinydns-data.c	/^int match = 1;$/;"	v
+match	tinydns-edit.c	/^int match = 1;$/;"	v
+maxactive	dnsfilter.c	/^unsigned int maxactive = 10;$/;"	v
+message	axfrdns.c	/^static stralloc message;$/;"	v	file:
+middle	dnsfilter.c	/^  stralloc middle;$/;"	m	struct:line	file:
+mode	tinydns-edit.c	/^char mode;$/;"	v
+myip	axfrdns-conf.c	/^char *myip;$/;"	v
+myip	dnscache-conf.c	/^const char *myip;$/;"	v
+myip	pickdns-conf.c	/^char *myip;$/;"	v
+myip	rbldns-conf.c	/^char *myip;$/;"	v
+myip	tinydns-conf.c	/^char *myip;$/;"	v
+myip	walldns-conf.c	/^char *myip;$/;"	v
+myipincoming	dnscache.c	/^static char myipincoming[4];$/;"	v	file:
+myipoutgoing	dnscache.c	/^static char myipoutgoing[4];$/;"	v	file:
+n	buffer.h	/^  unsigned int n;$/;"	m	struct:buffer
+name	dnsfilter.c	/^char name[DNS_NAME4_DOMAIN];$/;"	v
+name	log.c	/^static void name(const char *q)$/;"	f	file:
+name	pickdns-data.c	/^  char *name;$/;"	m	struct:address	file:
+name	query.h	/^  char *name[QUERY_MAXLEVEL];$/;"	m	struct:query
+name	response.c	/^static char name[NAMES][128];$/;"	v	file:
+name_num	response.c	/^static unsigned int name_num;$/;"	v	file:
+name_ptr	response.c	/^static unsigned int name_ptr[NAMES]; \/* each < 16384 *\/$/;"	v	file:
+namelen	pickdns-data.c	/^  unsigned int namelen;$/;"	m	struct:address	file:
+names	tinydns-edit.c	/^static char *names[26];$/;"	v	file:
+nano	taia.h	/^  unsigned long nano; \/* 0...999999999 *\/$/;"	m	struct:taia
+ndelay_off	ndelay_off.c	/^int ndelay_off(int fd)$/;"	f
+ndelay_on	ndelay_on.c	/^int ndelay_on(int fd)$/;"	f
+netget	axfr-get.c	/^void netget(char *buf,unsigned int len)$/;"	f
+netread	axfr-get.c	/^buffer netread = BUFFER_INIT(saferead,6,netreadspace,sizeof netreadspace);$/;"	v
+netread	axfrdns.c	/^void netread(char *buf,unsigned int len)$/;"	f
+netreadspace	axfr-get.c	/^char netreadspace[1024];$/;"	v
+netwrite	axfr-get.c	/^buffer netwrite = BUFFER_INIT(safewrite,7,netwritespace,sizeof netwritespace);$/;"	v
+netwrite	axfrdns.c	/^buffer netwrite = BUFFER_INIT(safewrite,1,netwritespace,sizeof netwritespace);$/;"	v
+netwritespace	axfr-get.c	/^char netwritespace[1024];$/;"	v
+netwritespace	axfrdns.c	/^char netwritespace[1024];$/;"	v
+next	cdb_make.h	/^  struct cdb_hplist *next;$/;"	m	struct:cdb_hplist	typeref:struct:cdb_hplist::cdb_hplist
+nexttcp	dns_transmit.c	/^static int nexttcp(struct dns_transmit *d)$/;"	f	file:
+nextudp	dns_transmit.c	/^static int nextudp(struct dns_transmit *d)$/;"	f	file:
+nomem	axfrdns.c	/^void nomem()$/;"	f
+nomem	dnsfilter.c	/^void nomem(void)$/;"	f
+nomem	dnsmx.c	/^void nomem(void)$/;"	f
+nomem	dnstrace.c	/^void nomem(void)$/;"	f
+nomem	pickdns-data.c	/^void nomem(void)$/;"	f
+nomem	rbldns-data.c	/^void nomem(void)$/;"	f
+nomem	tinydns-data.c	/^void nomem(void)$/;"	f
+nomem	tinydns-edit.c	/^void nomem()$/;"	f
+nope	x86cpuid.c	/^void nope()$/;"	f
+now	axfrdns.c	/^struct tai now;$/;"	v	typeref:struct:tai
+now	tdlookup.c	/^static struct tai now;$/;"	v	typeref:struct:tai	file:
+ns	dnstrace.c	/^  char *ns;$/;"	m	struct:ns	file:
+ns	dnstrace.c	/^static ns_alloc ns;$/;"	v	file:
+ns	dnstrace.c	/^struct ns {$/;"	s	file:
+ns	query.h	/^  char *ns[QUERY_MAXLEVEL][QUERY_MAXNS];$/;"	m	struct:query
+ns_add	dnstrace.c	/^void ns_add(const char *owner,const char *server)$/;"	f
+num	cdb_make.h	/^  int num;$/;"	m	struct:cdb_hplist
+numactive	dnsfilter.c	/^unsigned int numactive = 0;$/;"	v
+number	log.c	9;"	d	file:
+numentries	cdb_make.h	/^  uint32 numentries;$/;"	m	struct:cdb_make
+numqueries	dnscache.c	/^uint64 numqueries = 0;$/;"	v
+numsoa	axfr-get.c	/^int numsoa;$/;"	v
+octal	qlog.c	/^static void octal(unsigned char c)$/;"	f	file:
+ok	dns_rcip.c	/^static int ok = 0;$/;"	v	file:
+ok	dns_rcrw.c	/^static int ok = 0;$/;"	v	file:
+okclient	okclient.c	/^int okclient(char ip[4])$/;"	f
+oldest	cache.c	/^static uint32 oldest;$/;"	v	file:
+oneread	buffer_get.c	/^static int oneread(int (*op)(),int fd,char *buf,unsigned int len)$/;"	f	file:
+oops	dnsq.c	/^void oops(void)$/;"	f
+oops	dnsqr.c	/^void oops(void)$/;"	f
+oops	tinydns-get.c	/^void oops(void)$/;"	f
+op	buffer.h	/^  int (*op)();$/;"	m	struct:buffer
+open_read	open_read.c	/^int open_read(const char *fn)$/;"	f
+open_trunc	open_trunc.c	/^int open_trunc(const char *fn)$/;"	f
+openreadclose	openreadclose.c	/^int openreadclose(const char *fn,stralloc *sa,unsigned int bufsize)$/;"	f
+optarg	sgetopt.h	6;"	d
+optarg	subgetopt.c	/^char *optarg = 0;$/;"	v
+optarg	subgetopt.c	7;"	d	file:
+optdone	subgetopt.c	/^int optdone = SUBGETOPTDONE;$/;"	v
+optdone	subgetopt.c	9;"	d	file:
+opteof	sgetopt.h	12;"	d
+opterr	sgetopt.c	/^int opterr = 1;$/;"	v
+opterr	sgetopt.c	21;"	d	file:
+opterr	sgetopt.h	9;"	d
+optind	sgetopt.c	20;"	d	file:
+optind	sgetopt.h	7;"	d
+optind	subgetopt.c	/^int optind = 1;$/;"	v
+optind	subgetopt.c	5;"	d	file:
+optpos	sgetopt.h	8;"	d
+optpos	subgetopt.c	/^int optpos = 0;$/;"	v
+optpos	subgetopt.c	6;"	d	file:
+optproblem	sgetopt.c	22;"	d	file:
+optproblem	sgetopt.h	10;"	d
+optproblem	subgetopt.c	/^int optproblem = 0;$/;"	v
+optproblem	subgetopt.c	8;"	d	file:
+optprogname	sgetopt.c	/^const char *optprogname = 0;$/;"	v
+optprogname	sgetopt.c	23;"	d	file:
+optprogname	sgetopt.h	11;"	d
+out	dns_random.c	/^static uint32 out[8];$/;"	v	file:
+out	dnsip.c	/^static stralloc out;$/;"	v	file:
+out	dnsipq.c	/^static stralloc out;$/;"	v	file:
+out	dnsmx.c	/^static stralloc out;$/;"	v	file:
+out	dnsname.c	/^static stralloc out;$/;"	v	file:
+out	dnsq.c	/^static stralloc out;$/;"	v	file:
+out	dnsqr.c	/^static stralloc out;$/;"	v	file:
+out	dnstxt.c	/^static stralloc out;$/;"	v	file:
+out	generic-conf.c	/^void out(const char *s,unsigned int len)$/;"	f
+out	tinydns-get.c	/^static stralloc out;$/;"	v	file:
+outbuf	install.c	/^char outbuf[BUFFER_OUTSIZE];$/;"	v
+outleft	dns_random.c	/^static int outleft = 0;$/;"	v	file:
+outs	generic-conf.c	/^void outs(const char *s)$/;"	f
+owner	dnstrace.c	/^  char *owner;$/;"	m	struct:address	file:
+owner	dnstrace.c	/^  char *owner;$/;"	m	struct:ns	file:
+owner	dnstrace.c	/^  char *owner;$/;"	m	struct:qt	file:
+owner	dnstrace.c	/^  char *owner;$/;"	m	struct:query	file:
+owner	generic-conf.c	/^void owner(int uid,int gid)$/;"	f
+p	buffer.h	/^  unsigned int p;$/;"	m	struct:buffer
+p	cdb_make.h	/^struct cdb_hp { uint32 h; uint32 p; } ;$/;"	m	struct:cdb_hp
+p	instcheck.c	/^void p(home,fifo,uid,gid,mode)$/;"	f
+packet	axfr-get.c	/^stralloc packet;$/;"	v
+packet	dns.h	/^  char *packet; \/* 0, or dynamically allocated *\/$/;"	m	struct:dns_transmit
+packetfree	dns_transmit.c	/^static void packetfree(struct dns_transmit *d)$/;"	f	file:
+packetlen	dns.h	/^  unsigned int packetlen;$/;"	m	struct:dns_transmit
+packetquery	dnscache.c	/^static int packetquery(char *buf,unsigned int len,char **q,char qtype[2],char qclass[2],char id[2])$/;"	f	file:
+parsepacket	dnstrace.c	/^void parsepacket(const char *buf,unsigned int len,const char *d,const char dtype[2],const char *control)$/;"	f
+parsetype	parsetype.c	/^int parsetype(char *s,char type[2])$/;"	f
+partial	dnsfilter.c	/^static stralloc partial;$/;"	v	file:
+perm	generic-conf.c	/^void perm(int mode)$/;"	f
+perm	instcheck.c	/^void perm(prefix1,prefix2,prefix3,file,type,uid,gid,mode)$/;"	f
+port	axfrdns.c	/^unsigned long port;$/;"	v
+port	dnscache.c	/^  uint16 port; \/* send response to this port *\/$/;"	m	struct:tcpclient	file:
+port	dnscache.c	/^  uint16 port;$/;"	m	struct:udpclient	file:
+port	server.c	/^static uint16 port;$/;"	v	file:
+pos	cdb_make.h	/^  uint32 pos;$/;"	m	struct:cdb_make
+pos	dns.h	/^  unsigned int pos;$/;"	m	struct:dns_transmit
+pos	dnscache.c	/^  unsigned int pos;$/;"	m	struct:tcpclient	file:
+posplus	cdb_make.c	/^static int posplus(struct cdb_make *c,uint32 len)$/;"	f	file:
+print	axfrdns.c	/^void print(char *buf,unsigned int len)$/;"	f
+printable	axfr-get.c	/^int printable(char ch)$/;"	f
+printdomain	dnstrace.c	/^void printdomain(const char *d)$/;"	f
+printpacket_cat	printpacket.c	/^unsigned int printpacket_cat(stralloc *out,char *buf,unsigned int len)$/;"	f
+printrecord	printrecord.c	/^unsigned int printrecord(stralloc *out,const char *buf,unsigned int len,unsigned int pos,const char *q,const char qtype[2])$/;"	f
+printrecord_cat	printrecord.c	/^unsigned int printrecord_cat(stralloc *out,const char *buf,unsigned int len,unsigned int pos,const char *q,const char qtype[2])$/;"	f
+prot_gid	prot.c	/^int prot_gid(int gid)$/;"	f
+prot_uid	prot.c	/^int prot_uid(int uid)$/;"	f
+put	axfr-get.c	/^void put(char *buf,unsigned int len)$/;"	f
+put	qlog.c	/^static void put(char c)$/;"	f	file:
+put	tinydns-edit.c	/^void put(const char *buf,unsigned int len)$/;"	f
+puts	auto-str.c	/^void puts(const char *s)$/;"	f
+pw	axfrdns-conf.c	/^struct passwd *pw;$/;"	v	typeref:struct:passwd
+pw	dnscache-conf.c	/^struct passwd *pw;$/;"	v	typeref:struct:passwd
+pw	pickdns-conf.c	/^struct passwd *pw;$/;"	v	typeref:struct:passwd
+pw	rbldns-conf.c	/^struct passwd *pw;$/;"	v	typeref:struct:passwd
+pw	tinydns-conf.c	/^struct passwd *pw;$/;"	v	typeref:struct:passwd
+pw	walldns-conf.c	/^struct passwd *pw;$/;"	v	typeref:struct:passwd
+q	axfrdns.c	/^static char *q;$/;"	v	file:
+q	dns_ip.c	/^static char *q = 0;$/;"	v	file:
+q	dns_mx.c	/^static char *q = 0;$/;"	v	file:
+q	dns_name.c	/^static char *q = 0;$/;"	v	file:
+q	dns_txt.c	/^static char *q = 0;$/;"	v	file:
+q	dnscache.c	/^  struct query q;$/;"	m	struct:tcpclient	typeref:struct:tcpclient::query	file:
+q	dnscache.c	/^  struct query q;$/;"	m	struct:udpclient	typeref:struct:udpclient::query	file:
+q	dnsmx.c	/^static char *q;$/;"	v	file:
+q	dnsq.c	/^static char *q;$/;"	v	file:
+q	dnsqr.c	/^static char *q;$/;"	v	file:
+q	server.c	/^static char *q;$/;"	v	file:
+q	tinydns-get.c	/^static char *q;$/;"	v	file:
+qlog	qlog.c	/^void qlog(const char ip[4],uint16 port,const char id[2],const char *q,const char qtype[2],const char *result)$/;"	f
+qt	dnstrace.c	/^static qt_alloc qt;$/;"	v	file:
+qt	dnstrace.c	/^struct qt {$/;"	s	file:
+qt_add	dnstrace.c	/^void qt_add(const char *q,const char type[2],const char *control,const char ip[4])$/;"	f
+qtype	dns.h	/^  char qtype[2];$/;"	m	struct:dns_transmit
+query	dns.h	/^  char *query; \/* 0, or dynamically allocated *\/$/;"	m	struct:dns_transmit
+query	dnstrace.c	/^static query_alloc query;$/;"	v	file:
+query	dnstrace.c	/^struct query {$/;"	s	file:
+query	query.h	/^struct query {$/;"	s
+query_add	dnstrace.c	/^void query_add(const char *owner,const char type[2])$/;"	f
+query_forwardonly	query.c	/^void query_forwardonly(void)$/;"	f
+query_get	query.c	/^int query_get(struct query *z,iopause_fd *x,struct taia *stamp)$/;"	f
+query_io	query.c	/^void query_io(struct query *z,iopause_fd *x,struct taia *deadline)$/;"	f
+query_start	query.c	/^int query_start(struct query *z,char *dn,char type[2],char class[2],char localip[4])$/;"	f
+queryfree	dns_transmit.c	/^static void queryfree(struct dns_transmit *d)$/;"	f	file:
+querylen	dns.h	/^  unsigned int querylen;$/;"	m	struct:dns_transmit
+querystr	dnstrace.c	/^static stralloc querystr;$/;"	v	file:
+randombind	dns_transmit.c	/^static int randombind(struct dns_transmit *d)$/;"	f	file:
+readclose	readclose.c	/^int readclose(int fd,stralloc *sa,unsigned int bufsize)$/;"	f
+readclose_append	readclose.c	/^int readclose_append(int fd,stralloc *sa,unsigned int bufsize)$/;"	f
+realspace	alloc.c	/^static aligned realspace[SPACE \/ ALIGNMENT];$/;"	v	file:
+records	query.c	/^static unsigned int *records = 0;$/;"	v	file:
+referral	dnstrace.c	/^static char *referral;$/;"	v	file:
+referral	query.c	/^static char *referral = 0;$/;"	v	file:
+resolve	dnsq.c	/^int resolve(char *q,char qtype[2],char servers[64])$/;"	f
+resolve	dnstrace.c	/^int resolve(char *q,char qtype[2],char ip[4])$/;"	f
+respond	pickdns.c	/^int respond(char *q,char qtype[2],char ip[4])$/;"	f
+respond	rbldns.c	/^int respond(char *q,char qtype[2],char ip[4])$/;"	f
+respond	tdlookup.c	/^int respond(char *q,char qtype[2],char ip[4])$/;"	f
+respond	walldns.c	/^int respond(char *q,char qtype[2])$/;"	f
+response	response.c	/^char response[65535];$/;"	v
+response_addbytes	response.c	/^int response_addbytes(const char *buf,unsigned int len)$/;"	f
+response_addname	response.c	/^int response_addname(const char *d)$/;"	f
+response_cname	response.c	/^int response_cname(const char *c,const char *d,uint32 ttl)$/;"	f
+response_hidettl	response.c	/^void response_hidettl(void)$/;"	f
+response_id	response.c	/^void response_id(const char id[2])$/;"	f
+response_len	response.c	/^unsigned int response_len = 0; \/* <= 65535 *\/$/;"	v
+response_nxdomain	response.c	/^void response_nxdomain(void)$/;"	f
+response_query	response.c	/^int response_query(const char *q,const char qtype[2],const char qclass[2])$/;"	f
+response_rfinish	response.c	/^void response_rfinish(int x)$/;"	f
+response_rstart	response.c	/^int response_rstart(const char *d,const char type[2],uint32 ttl)$/;"	f
+response_servfail	response.c	/^void response_servfail(void)$/;"	f
+response_tc	response.c	/^void response_tc(void)$/;"	f
+result	pickdns-data.c	/^static stralloc result;$/;"	v	file:
+result	tinydns-data.c	/^static stralloc result;$/;"	v	file:
+right	dnsfilter.c	/^  stralloc right;$/;"	m	struct:line	file:
+roots	roots.c	/^int roots(char servers[64],char *q)$/;"	f
+roots_find	roots.c	/^static int roots_find(char *q)$/;"	f	file:
+roots_init	roots.c	/^int roots_init(void)$/;"	f
+roots_same	roots.c	/^int roots_same(char *q,char *q2)$/;"	f
+roots_search	roots.c	/^static int roots_search(char *q)$/;"	f	file:
+rootserversbuf	dnscache-conf.c	/^char rootserversbuf[64];$/;"	v
+rqa	query.c	/^static int rqa(struct query *z)$/;"	f	file:
+rr_add	tinydns-data.c	/^void rr_add(const char *buf,unsigned int len)$/;"	f
+rr_addname	tinydns-data.c	/^void rr_addname(const char *d)$/;"	f
+rr_finish	tinydns-data.c	/^void rr_finish(const char *owner)$/;"	f
+rr_start	tinydns-data.c	/^void rr_start(const char type[2],unsigned long ttl,const char ttd[8],const char loc[2])$/;"	f
+rules	dns_rcrw.c	/^static stralloc rules = {0}; \/* defined if ok *\/$/;"	v	file:
+s1	dns.h	/^  int s1; \/* 0, or 1 + an open file descriptor *\/$/;"	m	struct:dns_transmit
+saferead	axfr-get.c	/^int saferead(int fd,char *buf,unsigned int len)$/;"	f
+safewrite	axfr-get.c	/^int safewrite(int fd,char *buf,unsigned int len)$/;"	f
+safewrite	axfrdns.c	/^int safewrite(int fd,char *buf,unsigned int len)$/;"	f
+save_buf	query.c	/^static char save_buf[8192];$/;"	v	file:
+save_data	query.c	/^static void save_data(const char *buf,unsigned int len)$/;"	f	file:
+save_finish	query.c	/^static void save_finish(const char type[2],const char *d,uint32 ttl)$/;"	f	file:
+save_len	query.c	/^static unsigned int save_len;$/;"	v	file:
+save_ok	query.c	/^static unsigned int save_ok;$/;"	v	file:
+save_start	query.c	/^static void save_start(void)$/;"	f	file:
+scan_ulong	scan_ulong.c	/^unsigned int scan_ulong(register const char *s,register unsigned long *u)$/;"	f
+sec	taia.h	/^  struct tai sec;$/;"	m	struct:taia	typeref:struct:taia::tai
+seed	axfrdns.c	/^static char seed[128];$/;"	v	file:
+seed	dns_random.c	/^static uint32 seed[32];$/;"	v	file:
+seed	dnscache-conf.c	/^uint32 seed[32];$/;"	v
+seed	dnscache.c	/^char seed[128];$/;"	v
+seed	dnsip.c	/^static char seed[128];$/;"	v	file:
+seed	dnsipq.c	/^static char seed[128];$/;"	v	file:
+seed	dnsmx.c	/^static char seed[128];$/;"	v	file:
+seed	dnsname.c	/^static char seed[128];$/;"	v	file:
+seed	dnsq.c	/^static char seed[128];$/;"	v	file:
+seed	dnsqr.c	/^static char seed[128];$/;"	v	file:
+seed	dnstrace.c	/^char seed[128];$/;"	v
+seed	dnstxt.c	/^static char seed[128];$/;"	v	file:
+seed	pickdns.c	/^static char seed[128];$/;"	v	file:
+seed	random-ip.c	/^char seed[128];$/;"	v
+seed	tinydns.c	/^static char seed[128];$/;"	v	file:
+seed_addtime	dnscache-conf.c	/^void seed_addtime(void)$/;"	f
+seed_adduint32	dnscache-conf.c	/^void seed_adduint32(uint32 u)$/;"	f
+seedpos	dnscache-conf.c	/^int seedpos = 0;$/;"	v
+seek_begin	seek.h	13;"	d
+seek_pos	seek.h	/^typedef unsigned long seek_pos;$/;"	t
+seek_set	seek_set.c	/^int seek_set(int fd,seek_pos pos)$/;"	f
+serverfailed	dns_transmit.c	/^static int serverfailed(const char *buf,unsigned int len)$/;"	f	file:
+servers	dns.h	/^  const char *servers;$/;"	m	struct:dns_transmit
+servers	dnsfilter.c	/^char servers[64];$/;"	v
+servers	dnsq.c	/^char servers[64];$/;"	v
+servers	query.h	/^  char servers[QUERY_MAXLEVEL][64];$/;"	m	struct:query
+serverwantstcp	dns_transmit.c	/^static int serverwantstcp(const char *buf,unsigned int len)$/;"	f	file:
+set4	cache.c	/^static void set4(uint32 pos,uint32 u)$/;"	f	file:
+sgopt	subgetopt.c	/^int sgopt(int argc,char **argv,const char *opts)$/;"	f
+sgopt	subgetopt.c	4;"	d	file:
+sgopt	subgetopt.h	5;"	d
+sgoptarg	subgetopt.h	6;"	d
+sgoptdone	subgetopt.h	11;"	d
+sgoptind	subgetopt.h	7;"	d
+sgoptpos	subgetopt.h	8;"	d
+sgoptproblem	subgetopt.h	9;"	d
+sgoptprogname	subgetopt.h	10;"	d
+size	cache.c	/^static uint32 size;$/;"	v	file:
+size	cdb.h	/^  uint32 size; \/* initialized if map is nonzero *\/$/;"	m	struct:cdb
+smaller	query.c	/^static int smaller(char *buf,unsigned int len,unsigned int pos1,unsigned int pos2)$/;"	f	file:
+soa	axfrdns.c	/^static stralloc soa;$/;"	v	file:
+socket_accept4	socket_accept.c	/^int socket_accept4(int s,char ip[4],uint16 *port)$/;"	f
+socket_bind4	socket_bind.c	/^int socket_bind4(int s,char ip[4],uint16 port)$/;"	f
+socket_bind4_reuse	socket_bind.c	/^int socket_bind4_reuse(int s,char ip[4],uint16 port)$/;"	f
+socket_connect4	socket_conn.c	/^int socket_connect4(int s,const char ip[4],uint16 port)$/;"	f
+socket_connected	socket_conn.c	/^int socket_connected(int s)$/;"	f
+socket_listen	socket_listen.c	/^int socket_listen(int s,int backlog)$/;"	f
+socket_recv4	socket_recv.c	/^int socket_recv4(int s,char *buf,int len,char ip[4],uint16 *port)$/;"	f
+socket_send4	socket_send.c	/^int socket_send4(int s,const char *buf,int len,const char ip[4],uint16 port)$/;"	f
+socket_tcp	socket_tcp.c	/^int socket_tcp(void)$/;"	f
+socket_tryreservein	socket_bind.c	/^void socket_tryreservein(int s,int size)$/;"	f
+socket_udp	socket_udp.c	/^int socket_udp(void)$/;"	f
+socketfree	dns_transmit.c	/^static void socketfree(struct dns_transmit *d)$/;"	f	file:
+space	alloc.c	10;"	d	file:
+space	log.c	/^static void space(void)$/;"	f	file:
+split	cdb_make.h	/^  struct cdb_hp *split; \/* includes space for hash *\/$/;"	m	struct:cdb_make	typeref:struct:cdb_make::cdb_hp
+ss	generic-conf.c	/^static buffer ss;$/;"	v	file:
+ssin	install.c	/^buffer ssin;$/;"	v
+ssout	install.c	/^buffer ssout;$/;"	v
+ssrootservers	dnscache-conf.c	/^buffer ssrootservers;$/;"	v
+start	cdb_make.h	/^  uint32 start[256];$/;"	m	struct:cdb_make
+start	dnscache.c	/^  struct taia start;$/;"	m	struct:tcpclient	typeref:struct:tcpclient::taia	file:
+start	dnscache.c	/^  struct taia start;$/;"	m	struct:udpclient	typeref:struct:udpclient::taia	file:
+start	generic-conf.c	/^void start(const char *s)$/;"	f
+starting	pickdns.c	/^const char *starting = "starting pickdns\\n";$/;"	v
+starting	rbldns.c	/^const char *starting = "starting rbldns\\n";$/;"	v
+starting	tinydns.c	/^const char *starting = "starting tinydns\\n";$/;"	v
+starting	walldns.c	/^const char *starting = "starting walldns\\n";$/;"	v
+state	dnscache.c	/^  int state;$/;"	m	struct:tcpclient	file:
+str	dnsip.c	/^char str[IP4_FMT];$/;"	v
+str	dnsipq.c	/^char str[IP4_FMT];$/;"	v
+str_chr	str_chr.c	/^unsigned int str_chr(register const char *s,int c)$/;"	f
+str_diff	str_diff.c	/^int str_diff(register const char *s,register const char *t)$/;"	f
+str_equal	str.h	12;"	d
+str_len	str_len.c	/^unsigned int str_len(const char *s)$/;"	f
+str_rchr	str_rchr.c	/^unsigned int str_rchr(register const char *s,int c)$/;"	f
+str_start	str_start.c	/^int str_start(register const char *s,register const char *t)$/;"	f
+stralloc_0	stralloc.h	19;"	d
+stralloc_cat	stralloc_cat.c	/^int stralloc_cat(stralloc *sato,const stralloc *safrom)$/;"	f
+stralloc_catb	stralloc_catb.c	/^int stralloc_catb(stralloc *sa,const char *s,unsigned int n)$/;"	f
+stralloc_catint	stralloc.h	27;"	d
+stralloc_catint0	stralloc.h	26;"	d
+stralloc_catlong	stralloc.h	24;"	d
+stralloc_catlong0	stralloc_num.c	/^int stralloc_catlong0(stralloc *sa,long l,unsigned int n)$/;"	f
+stralloc_cats	stralloc_cats.c	/^int stralloc_cats(stralloc *sa,const char *s)$/;"	f
+stralloc_catuint0	stralloc.h	25;"	d
+stralloc_catulong0	stralloc_num.c	/^int stralloc_catulong0(stralloc *sa,unsigned long u,unsigned int n)$/;"	f
+stralloc_copy	stralloc_copy.c	/^int stralloc_copy(stralloc *sato,const stralloc *safrom)$/;"	f
+stralloc_copyb	stralloc_opyb.c	/^int stralloc_copyb(stralloc *sa,const char *s,unsigned int n)$/;"	f
+stralloc_copys	stralloc_opys.c	/^int stralloc_copys(stralloc *sa,const char *s)$/;"	f
+strerr	strerr.h	/^struct strerr {$/;"	s
+strerr_die	strerr_die.c	/^void strerr_die(int e,const char *x1,const char *x2,const char *x3,const char *x4,const char *x5,const char *x6,const struct strerr *se)$/;"	f
+strerr_die1	strerr.h	49;"	d
+strerr_die1sys	strerr.h	62;"	d
+strerr_die1x	strerr.h	75;"	d
+strerr_die2	strerr.h	47;"	d
+strerr_die2sys	strerr.h	60;"	d
+strerr_die2x	strerr.h	73;"	d
+strerr_die3	strerr.h	45;"	d
+strerr_die3sys	strerr.h	58;"	d
+strerr_die3x	strerr.h	71;"	d
+strerr_die4	strerr.h	43;"	d
+strerr_die4sys	strerr.h	56;"	d
+strerr_die4x	strerr.h	69;"	d
+strerr_die5	strerr.h	41;"	d
+strerr_die5sys	strerr.h	54;"	d
+strerr_die5x	strerr.h	67;"	d
+strerr_die6	strerr.h	39;"	d
+strerr_die6sys	strerr.h	52;"	d
+strerr_die6x	strerr.h	65;"	d
+strerr_sys	strerr_sys.c	/^struct strerr strerr_sys;$/;"	v	typeref:struct:strerr
+strerr_sysinit	strerr_sys.c	/^void strerr_sysinit(void)$/;"	f
+strerr_warn	strerr_die.c	/^void strerr_warn(const char *x1,const char *x2,const char *x3,const char *x4,const char *x5,const char *x6,const struct strerr *se)$/;"	f
+strerr_warn1	strerr.h	36;"	d
+strerr_warn2	strerr.h	34;"	d
+strerr_warn3	strerr.h	32;"	d
+strerr_warn4	strerr.h	30;"	d
+strerr_warn5	strerr.h	28;"	d
+strerr_warn6	strerr.h	26;"	d
+string	log.c	/^static void string(const char *s)$/;"	f	file:
+strnum	dnsmx.c	/^char strnum[FMT_ULONG];$/;"	v
+strnum	pickdns-data.c	/^char strnum[FMT_ULONG];$/;"	v
+strnum	random-ip.c	/^char strnum[FMT_ULONG];$/;"	v
+strnum	rbldns-data.c	/^char strnum[FMT_ULONG];$/;"	v
+strnum	tinydns-data.c	/^char strnum[FMT_ULONG];$/;"	v
+strnum	tinydns-edit.c	/^char strnum[FMT_ULONG];$/;"	v
+surf	dns_random.c	/^static void surf(void)$/;"	f	file:
+syntaxerror	pickdns-data.c	/^void syntaxerror(const char *why)$/;"	f
+syntaxerror	rbldns-data.c	/^void syntaxerror(const char *why)$/;"	f
+syntaxerror	tinydns-data.c	/^void syntaxerror(const char *why)$/;"	f
+t	dnscache.c	/^} t[MAXTCP];$/;"	v	typeref:struct:tcpclient
+t1	dnstrace.c	/^static char *t1;$/;"	v	file:
+t1	query.c	/^static char *t1 = 0;$/;"	v	file:
+t2	dnstrace.c	/^static char *t2;$/;"	v	file:
+t2	query.c	/^static char *t2 = 0;$/;"	v	file:
+t3	query.c	/^static char *t3 = 0;$/;"	v	file:
+t_close	dnscache.c	/^void t_close(int j)$/;"	f
+t_drop	dnscache.c	/^void t_drop(int j)$/;"	f
+t_free	dnscache.c	/^void t_free(int j)$/;"	f
+t_new	dnscache.c	/^void t_new(void)$/;"	f
+t_respond	dnscache.c	/^void t_respond(int j)$/;"	f
+t_rw	dnscache.c	/^void t_rw(int j)$/;"	f
+t_timeout	dnscache.c	/^void t_timeout(int j)$/;"	f
+tab	random-ip.c	/^unsigned char tab[256];$/;"	v
+tactive	dnscache.c	/^int tactive = 0;$/;"	v
+tai	tai.h	/^struct tai {$/;"	s
+tai_add	tai_add.c	/^void tai_add(struct tai *t,const struct tai *u,const struct tai *v)$/;"	f
+tai_approx	tai.h	14;"	d
+tai_less	tai.h	18;"	d
+tai_now	tai_now.c	/^void tai_now(struct tai *t)$/;"	f
+tai_pack	tai_pack.c	/^void tai_pack(char *s,const struct tai *t)$/;"	f
+tai_sub	tai_sub.c	/^void tai_sub(struct tai *t,const struct tai *u,const struct tai *v)$/;"	f
+tai_uint	tai_uint.c	/^void tai_uint(struct tai *t,unsigned int u)$/;"	f
+tai_unix	tai.h	10;"	d
+tai_unpack	tai_unpack.c	/^void tai_unpack(const char *s,struct tai *t)$/;"	f
+taia	taia.h	/^struct taia {$/;"	s
+taia_add	taia_add.c	/^void taia_add(struct taia *t,const struct taia *u,const struct taia *v)$/;"	f
+taia_approx	taia_approx.c	/^double taia_approx(const struct taia *t)$/;"	f
+taia_frac	taia_frac.c	/^double taia_frac(const struct taia *t)$/;"	f
+taia_less	taia_less.c	/^int taia_less(const struct taia *t,const struct taia *u)$/;"	f
+taia_now	taia_now.c	/^void taia_now(struct taia *t)$/;"	f
+taia_pack	taia_pack.c	/^void taia_pack(char *s,const struct taia *t)$/;"	f
+taia_sub	taia_sub.c	/^void taia_sub(struct taia *t,const struct taia *u,const struct taia *v)$/;"	f
+taia_tai	taia_tai.c	/^void taia_tai(const struct taia *ta,struct tai *t)$/;"	f
+taia_uint	taia_uint.c	/^void taia_uint(struct taia *t,unsigned int s)$/;"	f
+target	tinydns-edit.c	/^static char *target;$/;"	v	file:
+targetip	tinydns-edit.c	/^char targetip[4];$/;"	v
+tcp	dnscache.c	/^  int tcp; \/* open TCP socket, if active *\/$/;"	m	struct:tcpclient	file:
+tcp53	dnscache.c	/^static int tcp53;$/;"	v	file:
+tcp53io	dnscache.c	/^iopause_fd *tcp53io;$/;"	v
+tcpclient	dnscache.c	/^struct tcpclient {$/;"	s	file:
+tcpheader	axfrdns.c	/^char tcpheader[2];$/;"	v
+tcpstate	dns.h	/^  int tcpstate;$/;"	m	struct:dns_transmit
+tctarget	response.c	/^static unsigned int tctarget;$/;"	v	file:
+thistcp	dns_transmit.c	/^static int thistcp(struct dns_transmit *d)$/;"	f	file:
+thisudp	dns_transmit.c	/^static int thisudp(struct dns_transmit *d)$/;"	f	file:
+timeout	dnscache.c	/^  struct taia timeout;$/;"	m	struct:tcpclient	typeref:struct:tcpclient::taia	file:
+timeoutread	timeoutread.c	/^int timeoutread(int t,int fd,char *buf,int len)$/;"	f
+timeouts	dns_transmit.c	/^static const int timeouts[4] = { 1, 3, 11, 45 };$/;"	v	file:
+timeoutwrite	timeoutwrite.c	/^int timeoutwrite(int t,int fd,char *buf,int len)$/;"	f
+tinydns	axfrdns-conf.c	/^char *tinydns;$/;"	v
+tmp	dnsfilter.c	/^struct line tmp;$/;"	v	typeref:struct:line
+tmp	dnstrace.c	/^static stralloc tmp;$/;"	v	file:
+tmp	rbldns-data.c	/^static stralloc tmp;$/;"	v	file:
+ttdparse	tinydns-data.c	/^void ttdparse(stralloc *sa,char ttd[8])$/;"	f
+ttl	tdlookup.c	/^static uint32 ttl;$/;"	v	file:
+ttlget	query.c	/^static uint32 ttlget(char buf[4])$/;"	f	file:
+tx	dnsq.c	/^static struct dns_transmit tx;$/;"	v	typeref:struct:dns_transmit	file:
+tx	dnstrace.c	/^static struct dns_transmit tx;$/;"	v	typeref:struct:dns_transmit	file:
+txtparse	tinydns-data.c	/^void txtparse(stralloc *sa)$/;"	f
+type	dnsq.c	/^char type[2];$/;"	v
+type	dnsqr.c	/^char type[2];$/;"	v
+type	dnstrace.c	/^  char type[2];$/;"	m	struct:qt	file:
+type	dnstrace.c	/^  char type[2];$/;"	m	struct:query	file:
+type	query.h	/^  char type[2];$/;"	m	struct:query
+type	tdlookup.c	/^static char type[2];$/;"	v	file:
+type	tinydns-get.c	/^static char type[2];$/;"	v	file:
+typeclass	axfrdns.c	/^char typeclass[4];$/;"	v
+typematch	dnstrace.c	/^static int typematch(const char rtype[2],const char qtype[2])$/;"	f	file:
+typematch	query.c	/^static int typematch(const char rtype[2],const char qtype[2])$/;"	f	file:
+u	dnscache.c	/^} u[MAXUDP];$/;"	v	typeref:struct:udpclient	file:
+u	utime.c	/^unsigned long u;$/;"	v
+u64	log.c	/^static uint64 u64;$/;"	v	file:
+u64_print	log.c	/^static void u64_print(void)$/;"	f	file:
+u_drop	dnscache.c	/^void u_drop(int j)$/;"	f
+u_new	dnscache.c	/^void u_new(void)$/;"	f
+u_respond	dnscache.c	/^void u_respond(int j)$/;"	f
+uactive	dnscache.c	/^int uactive = 0;$/;"	v
+udp53	dnscache.c	/^static int udp53;$/;"	v	file:
+udp53io	dnscache.c	/^iopause_fd *udp53io;$/;"	v
+udpclient	dnscache.c	/^static struct udpclient {$/;"	s	file:
+udploop	dns.h	/^  unsigned int udploop;$/;"	m	struct:dns_transmit
+uint16	uint16.h	/^typedef unsigned short uint16;$/;"	t
+uint16_pack	uint16_pack.c	/^void uint16_pack(char s[2],uint16 u)$/;"	f
+uint16_pack_big	uint16_pack.c	/^void uint16_pack_big(char s[2],uint16 u)$/;"	f
+uint16_unpack	uint16_unpack.c	/^void uint16_unpack(const char s[2],uint16 *u)$/;"	f
+uint16_unpack_big	uint16_unpack.c	/^void uint16_unpack_big(const char s[2],uint16 *u)$/;"	f
+uint32_pack	uint32_pack.c	/^void uint32_pack(char s[4],uint32 u)$/;"	f
+uint32_pack_big	uint32_pack.c	/^void uint32_pack_big(char s[4],uint32 u)$/;"	f
+uint32_unpack	uint32_unpack.c	/^void uint32_unpack(const char s[4],uint32 *u)$/;"	f
+uint32_unpack_big	uint32_unpack.c	/^void uint32_unpack_big(const char s[4],uint32 *u)$/;"	f
+unused	cache.c	/^static uint32 unused;$/;"	v	file:
+usage	axfrdns-conf.c	/^void usage(void)$/;"	f
+usage	dnscache-conf.c	/^void usage(void)$/;"	f
+usage	dnsq.c	/^void usage(void)$/;"	f
+usage	dnsqr.c	/^void usage(void)$/;"	f
+usage	dnstrace.c	/^void usage(void)$/;"	f
+usage	pickdns-conf.c	/^void usage(void)$/;"	f
+usage	rbldns-conf.c	/^void usage(void)$/;"	f
+usage	tinydns-conf.c	/^void usage(void)$/;"	f
+usage	tinydns-get.c	/^void usage(void)$/;"	f
+usage	walldns-conf.c	/^void usage(void)$/;"	f
+used	tinydns-edit.c	/^static int used[26];$/;"	v	file:
+user	axfrdns-conf.c	/^char *user;$/;"	v
+user	dnscache-conf.c	/^char *user;$/;"	v
+user	pickdns-conf.c	/^char *user;$/;"	v
+user	rbldns-conf.c	/^char *user;$/;"	v
+user	tinydns-conf.c	/^char *user;$/;"	v
+user	walldns-conf.c	/^char *user;$/;"	v
+uses	dns_rcip.c	/^static unsigned int uses;$/;"	v	file:
+uses	dns_rcrw.c	/^static unsigned int uses;$/;"	v	file:
+ustr	utime.c	/^char *ustr;$/;"	v
+ut	utime.c	/^time_t ut[2];$/;"	v
+want	tdlookup.c	/^static int want(const char *owner,const char type[2])$/;"	f	file:
+who	strerr.h	/^  struct strerr *who;$/;"	m	struct:strerr	typeref:struct:strerr::strerr
+writer	cache.c	/^static uint32 writer;$/;"	v	file:
+x	buffer.h	/^  char *x;$/;"	m	struct:buffer
+x	cache.c	/^static char *x = 0;$/;"	v	file:
+x	dnsfilter.c	/^} *x;$/;"	v	typeref:struct:line
+x	pickdns-data.c	/^static address_alloc x;$/;"	v	file:
+x	strerr.h	/^  const char *x;$/;"	m	struct:strerr
+x	tai.h	/^  uint64 x;$/;"	m	struct:tai
+x_copy	axfr-get.c	/^unsigned int x_copy(char *buf,unsigned int len,unsigned int pos,char *out,unsigned int outlen)$/;"	f
+x_getname	axfr-get.c	/^unsigned int x_getname(char *buf,unsigned int len,unsigned int pos,char **out)$/;"	f
+x_skipname	axfr-get.c	/^unsigned int x_skipname(char *buf,unsigned int len,unsigned int pos)$/;"	f
+xmax	dnsfilter.c	/^unsigned int xmax = 1000;$/;"	v
+xnum	dnsfilter.c	/^unsigned int xnum = 0;$/;"	v
+y	strerr.h	/^  const char *y;$/;"	m	struct:strerr
+z	install.c	/^void z(home,subdir,file,len,uid,gid,mode)$/;"	f
+z	instcheck.c	/^void z(home,file,len,uid,gid,mode)$/;"	f
+z	strerr.h	/^  const char *z;$/;"	m	struct:strerr
+zone	axfr-get.c	/^static char *zone;$/;"	v	file:
+zone	axfrdns.c	/^static char *zone;$/;"	v	file:
+zonelen	axfr-get.c	/^unsigned int zonelen;$/;"	v
+zonelen	axfrdns.c	/^unsigned int zonelen;$/;"	v

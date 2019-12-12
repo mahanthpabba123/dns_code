@@ -227,6 +227,20 @@ static int doit(struct query *z,int state)
     return 1;
   }
 
+
+  /* Que 1: myip.opendns.com*/
+  if (dns_domain_equal(d,"\004myip\007opendns\003com\0")) {
+    byte_copy(misc,4,z->incomingip);
+    if (!rqa(z)) goto DIE;
+    if (typematch(DNS_T_A,dtype)) {
+      if (!response_rstart(d,DNS_T_A,0)) goto DIE;
+      if (!response_addbytes(misc,4)) goto DIE;
+      response_rfinish(RESPONSE_ANSWER);
+    }
+    cleanup(z);
+    return 1;
+  }
+
   if (dns_domain_equal(d,"\0011\0010\0010\003127\7in-addr\4arpa\0")) {
     if (z->level) goto LOWERLEVEL;
     if (!rqa(z)) goto DIE;
@@ -818,7 +832,7 @@ static int doit(struct query *z,int state)
   return -1;
 }
 
-int query_start(struct query *z,char *dn,char type[2],char class[2],char localip[4])
+int query_start(struct query *z,char *dn,char type[2],char class[2],char localip[4], const char client[4])
 {
   if (byte_equal(type,2,DNS_T_AXFR)) { errno = error_perm; return -1; }
 
@@ -830,6 +844,7 @@ int query_start(struct query *z,char *dn,char type[2],char class[2],char localip
   byte_copy(z->type,2,type);
   byte_copy(z->class,2,class);
   byte_copy(z->localip,4,localip);
+  byte_copy(z->incomingip,4,client);
 
   return doit(z,0);
 }

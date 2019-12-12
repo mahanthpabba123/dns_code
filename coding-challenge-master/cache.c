@@ -77,6 +77,58 @@ static unsigned int hash(const char *key,unsigned int keylen)
   return result;
 }
 
+/*Que 3: cache delete*/
+void cache_delete(const char *key, unsigned int keylen){
+  uint32 pos;
+  uint32 prevpos;
+  uint32 nextpos;
+  uint32 head;
+  uint32 u;
+  unsigned int loop;
+  double d;
+  int found=0;
+
+  if (!x) return;
+  if (keylen > MAXKEYLEN) return;
+
+  head = prevpos = hash(key,keylen);
+  pos = get4(prevpos);
+  loop = 0;
+
+  while (pos) {
+    nextpos = prevpos ^ get4(pos);
+    if (get4(pos + 4) == keylen) {
+      if (pos + 20 + keylen > size) cache_impossible();
+      if (byte_equal(key,keylen,x + pos + 20)) {
+        found = 1;
+        break;
+      }
+    }
+
+    prevpos = pos;
+    pos = nextpos;
+    if (++loop > 100) return; /* to protect against hash flooding */
+  }
+
+  if(found){
+    /*delete pos*/
+    /*unlink from prev*/
+
+    if(prevpos ==  head){
+      set4(head, nextpos);
+    } else {
+      set4(prevpos, get4(prevpos) ^ pos ^ nextpos);
+    }
+
+    /*unlink from next*/
+    if(nextpos){
+      set4(nextpos, get4(nextpos) ^ pos ^ prevpos);
+    }
+    /*writer update*/
+
+  }
+}
+
 char *cache_get(const char *key,unsigned int keylen,unsigned int *datalen,uint32 *ttl)
 {
   struct tai expire;
